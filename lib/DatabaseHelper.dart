@@ -33,6 +33,9 @@ class DatabaseHelper {
   static const tableExercises = 'exercises';
   static const tableWorkouts = 'workouts';
   static const tableWorkoutExercises = 'workout_exercises';
+  static const tableUser = 'user';
+  static const tableBodyMeasurement = 'BodyMeasurement';
+  static const tableMuscleGroup = 'MuscleGroup';
   // ... other tables (users, body measurements, etc.)
 
   DatabaseHelper._privateConstructor();
