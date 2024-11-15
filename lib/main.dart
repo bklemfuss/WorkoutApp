@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'View/HomeScreen.dart'; // Import your HomeScreen widget
+import 'View/HomeScreen.dart';
 import 'View/HistoryScreen.dart';
 import 'View/StatisticsScreen.dart';
 import 'View/OptionsScreen.dart';

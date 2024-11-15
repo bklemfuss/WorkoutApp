@@ -64,7 +64,7 @@ class HomeScreen extends StatelessWidget {
             },
             child: Container(
               padding: EdgeInsets.symmetric(
-                  vertical: 12.0, horizontal: 20.0), // Adjusted padding
+                  vertical: 20.0, horizontal: 60.0), // Adjusted padding
               decoration: BoxDecoration(
                 color: Colors.blue, // Add a background color
                 borderRadius: BorderRadius.circular(8.0), // Add rounded corners

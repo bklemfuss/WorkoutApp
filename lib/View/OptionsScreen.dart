@@ -29,12 +29,13 @@ class _OptionsScreenState extends State<OptionsScreen> {
         title: const Text('Options'),
         actions: [
           Padding(
-            padding: const EdgeInsets.only(right: 16.0),
-            child: CircleAvatar(
-              backgroundImage: NetworkImage(
-                  'https://via.placeholder.com/150'), // Replace with your profile picture URL
-            ),
-          ),
+              padding: const EdgeInsets.only(right: 16.0),
+              child: CircleAvatar(
+                radius: 50, // Adjust the radius as needed
+                backgroundImage: NetworkImage(
+                  'https://via.placeholder.com/150', // Replace with your profile picture URL
+                ),
+              )),
         ],
       ),
       body: Padding(
@@ -63,7 +64,7 @@ class _OptionsScreenState extends State<OptionsScreen> {
             ),
             const SizedBox(height: 20),
 
-// Metric/Imperial Toggle
+            // Metric/Imperial Toggle
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
