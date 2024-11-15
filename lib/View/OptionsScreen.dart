@@ -25,40 +25,74 @@ class _OptionsScreenState extends State<OptionsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // ... (your AppBar code)
-
+      appBar: AppBar(
+        title: const Text('Options'),
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 16.0),
+            child: CircleAvatar(
+              backgroundImage: NetworkImage(
+                  'https://via.placeholder.com/150'), // Replace with your profile picture URL
+            ),
+          ),
+        ],
+      ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // ... (your name, age, and height widgets)
+            // Name
+            Text(
+              'Name: $name',
+              style: const TextStyle(fontSize: 18),
+            ),
+            const SizedBox(height: 10),
 
-            // Metric/Imperial Toggle
+            // Age
+            Text(
+              'Age: $age',
+              style: const TextStyle(fontSize: 18),
+            ),
+            const SizedBox(height: 10),
+
+            // Height
+            Text(
+              'Height: $height cm',
+              style: const TextStyle(fontSize: 18),
+            ),
+            const SizedBox(height: 20),
+
+// Metric/Imperial Toggle
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text('Units:', style: TextStyle(fontSize: 18)),
-                Switch(
-                  value: _isMetric,
-                  onChanged: (value) {
-                    setState(() {
-                      _isMetric = value;
-                    });
-                    // TODO: Save unit preference to database or local storage
-                  },
+                Row(
+                  // Wrap the Switch and Text in a Row
+                  children: [
+                    Text(_isMetric ? 'kg' : 'lbs'), // Display the unit here
+                    Switch(
+                      value: _isMetric,
+                      onChanged: (value) {
+                        setState(() {
+                          _isMetric = value;
+                        });
+                        // TODO: Save unit preference to database or local storage
+                      },
+                    ),
+                  ],
                 ),
               ],
             ),
             const SizedBox(height: 20),
 
-            // Weight Input
+// Weight Input
             TextField(
               controller: _weightController,
               keyboardType: TextInputType.number,
-              decoration: InputDecoration(
-                labelText:
-                    'Enter weight for today (${_isMetric ? 'kg' : 'lbs'})', // Update label
+              decoration: const InputDecoration(
+                labelText: 'Enter weight for today', // Remove unit from label
               ),
             ),
             const SizedBox(height: 10),

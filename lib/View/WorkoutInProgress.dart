@@ -58,7 +58,7 @@ class _WorkoutInProgressScreenState extends State<WorkoutInProgressScreen> {
           Expanded(
             child: ListView.builder(
               itemCount: 3, // Replace with the actual number of exercises
-              itemBuilder: (context, index) {
+              itemBuilder: (context, exerciseIndex) {
                 return Card(
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
@@ -66,34 +66,42 @@ class _WorkoutInProgressScreenState extends State<WorkoutInProgressScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Exercise ${index + 1}', // Replace with actual exercise name
+                          'Exercise ${exerciseIndex + 1}', // Replace with actual exercise name
                           style: const TextStyle(
                             fontWeight: FontWeight.bold,
                           ),
                         ),
                         const SizedBox(height: 10),
-                        // Weight Input
-                        TextField(
-                          keyboardType: TextInputType.number,
-                          decoration: const InputDecoration(
-                            hintText: 'Weight',
-                          ),
-                        ),
-                        const SizedBox(height: 10),
-                        // Sets Input
-                        TextField(
-                          keyboardType: TextInputType.number,
-                          decoration: const InputDecoration(
-                            hintText: 'Sets',
-                          ),
-                        ),
-                        const SizedBox(height: 10),
-                        // Reps Input
-                        TextField(
-                          keyboardType: TextInputType.number,
-                          decoration: const InputDecoration(
-                            hintText: 'Reps',
-                          ),
+
+                        // Sets List
+                        ListView.builder(
+                          shrinkWrap: true,
+                          physics: const NeverScrollableScrollPhysics(),
+                          itemCount:
+                              3, // Replace with the actual number of sets
+                          itemBuilder: (context, setIndex) {
+                            return Row(
+                              children: [
+                                Expanded(
+                                  child: TextField(
+                                    keyboardType: TextInputType.number,
+                                    decoration: InputDecoration(
+                                      hintText: 'Weight (Set ${setIndex + 1})',
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 10),
+                                Expanded(
+                                  child: TextField(
+                                    keyboardType: TextInputType.number,
+                                    decoration: InputDecoration(
+                                      hintText: 'Reps (Set ${setIndex + 1})',
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            );
+                          },
                         ),
                       ],
                     ),
