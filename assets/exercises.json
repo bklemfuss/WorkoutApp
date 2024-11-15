@@ -1,0 +1,732 @@
+[
+  {
+    "muscle_group_id": 1,
+    "name": "Clean and Jerk",
+    "description": "The clean and jerk is a complex, full-body exercise commonly used in weightlifting and CrossFit.",
+    "instructions": "Clean: 1. Stand with feet shoulder-width apart, barbell over midfoot. 2. Bend down and grip the bar with an overhand grip, slightly wider than shoulder-width. 3. Keep your back flat, chest up, and core engaged. 4. Explosively lift the bar, keeping it close to your body. 5. As the bar passes your knees, extend your hips and shrug your shoulders. 6. Quickly drop under the bar, rotating your elbows forward and catching the bar in a front rack position (across your collarbone and shoulders). 7. Stand up fully with the bar in the front rack position.  Jerk: 1. Slightly dip your knees and explosively drive the bar upwards. 2. Split your feet, one foot forward and one foot back, as you push the bar overhead. 3. Lock your elbows and stabilize the bar overhead. 4. Bring your feet back together and stand up straight with the bar overhead. 5. Lower the bar back to the front rack position with control.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 1,
+    "name": "Snatch",
+    "description": "The snatch is another complex Olympic weightlifting exercise. It involves lifting the barbell from the floor to overhead in one explosive movement. ",
+    "instructions": "1. Stand with feet hip-width apart, barbell over midfoot. 2. Bend down and grip the bar with a wide overhand grip. 3. Keep your back flat, chest up, and core engaged. 4. Explosively lift the bar, keeping it close to your body. 5. Extend your hips and knees powerfully. 6. As the bar passes your knees, shrug your shoulders and pull yourself under the bar. 7. Catch the bar overhead with arms fully extended, in a squat position. 8. Stand up fully with the bar overhead.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 1,
+    "name": "Thrusters",
+    "description": "A thruster is a full-body exercise that combines a front squat with an overhead press.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding a barbell in a front rack position (across your collarbone and shoulders). 2. Squat down, keeping your back straight and core engaged. 3. Drive through your heels to stand up explosively. 4. As you stand up, press the barbell overhead until your arms are fully extended. 5. Lower the bar back to the front rack position with control.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 1,
+    "name": "Burpees",
+    "description": "A burpee is a full-body exercise that combines a squat, push-up, and jump. It's a great exercise for cardiovascular fitness and overall conditioning. ",
+    "instructions": "1. Stand with feet shoulder-width apart. 2. Squat down and place your hands on the floor in front of you. 3. Kick your feet back into a push-up position. 4. Do a push-up (optional). 5. Quickly return your feet to the squat position. 6. Jump up explosively with arms overhead.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Cable Press",
+    "description": "A chest exercise performed using a cable machine. It involves pushing handles or a bar attached to cables away from your body, working the chest muscles.",
+    "instructions": "1. Attach handles to the cable pulleys at chest height. 2. Stand facing the machine, feet shoulder-width apart, with a slight bend in your knees. 3. Grasp the handles with palms facing forward. 4. Step forward slightly to create tension in the cables. 5. Keeping your core engaged and back straight, extend your arms forward, pushing the handles away from your body. 6. Slowly return the handles to the starting position, resisting the pull of the cables.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Push-ups",
+    "description": "A classic bodyweight exercise that works the chest, shoulders, and triceps.",
+    "instructions": "1. Start in a plank position with hands shoulder-width apart, fingers pointing forward. 2. Lower your body by bending your elbows until your chest touches the floor. 3. Push back up to the starting position, keeping your core engaged and body in a straight line.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Diamond Push-ups",
+    "description": "A variation of the push-up where the hands are close together, forming a diamond shape with the thumbs and index fingers. This places more emphasis on the triceps.",
+    "instructions": "1. Start in a plank position with hands close together under your chest, forming a diamond shape with your thumbs and index fingers. 2. Lower your body by bending your elbows, keeping them close to your sides. 3. Push back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Chest Press Machine",
+    "description": "A machine that provides guided resistance for chest presses. It typically involves pushing handles or a platform away from your body.",
+    "instructions": "1. Adjust the seat and handles to fit your body size. 2. Sit with your back flat against the seat and feet flat on the floor. 3. Grasp the handles with a comfortable grip. 4. Push the handles or platform away from your body until your arms are fully extended. 5. Slowly return to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Dips",
+    "description": "A bodyweight exercise that primarily works the chest and triceps. It can be performed on parallel bars or dip bars.",
+    "instructions": "1. Grip the bars with hands shoulder-width apart. 2. Start with arms extended and body supported by your hands. 3. Lower your body by bending your elbows until your upper arms are parallel to the floor. 4. Push back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Decline Dumbbell Press with a Twist",
+    "description": "A variation of the dumbbell bench press performed on a decline bench. The twist involves rotating the dumbbells as you press them up, adding an extra challenge to the chest muscles.",
+    "instructions": "1. Lie on a decline bench with feet secured. 2. Hold dumbbells with palms facing each other. 3. Lower the dumbbells towards your chest. 4. As you press the dumbbells up, rotate your wrists so that your palms face forward at the top of the movement. 5. Slowly lower the dumbbells back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Single-Arm Cable Flyes",
+    "description": "A cable exercise that isolates one side of the chest at a time, improving muscle balance and coordination.",
+    "instructions": "1. Attach a handle to a cable pulley at chest height. 2. Stand sideways to the machine, holding the handle with one hand. 3. Keeping your core engaged and back straight, extend your arm across your body, bringing the handle towards the opposite shoulder. 4. Slowly return to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Cable Flyes",
+    "description": "A cable exercise that works both sides of the chest simultaneously, providing constant tension throughout the movement.",
+    "instructions": "1. Attach handles to the cable pulleys at chest height. 2. Stand facing the machine, feet shoulder-width apart, with a slight bend in your knees. 3. Grasp the handles with palms facing each other. 4. Step forward slightly to create tension in the cables. 5. Keeping your core engaged and back straight, extend your arms forward, bringing the handles together in front of your chest. 6. Slowly return the handles to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Cable Crossovers",
+    "description": "A cable exercise that targets the lower chest muscles. It involves bringing the handles together from a high position to a low position in front of your hips.",
+    "instructions": "1. Attach handles to the cable pulleys above your head. 2. Stand facing the machine, feet shoulder-width apart, with a slight bend in your knees. 3. Grasp the handles with palms facing down. 4. Step forward slightly to create tension in the cables. 5. Keeping your core engaged and back straight, bring the handles down and together in front of your hips. 6. Slowly return the handles to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Dumbbell Pullover",
+    "description": "An exercise that targets the chest, lats, and triceps. It involves lying on a bench and extending a dumbbell overhead.",
+    "instructions": "1. Lie on a bench with your upper back supported and feet flat on the floor. 2. Hold a dumbbell with both hands, palms facing up, and arms extended above your chest. 3. Keeping your core engaged, slowly lower the dumbbell behind your head, feeling a stretch in your chest and lats. 4. Pull the dumbbell back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Arnold Press",
+    "description": "A shoulder exercise that also engages the chest muscles. It involves rotating the dumbbells as you press them overhead.",
+    "instructions": "1. Sit on a bench with your back straight and feet flat on the floor. 2. Hold dumbbells in front of your shoulders with palms facing your body. 3. As you press the dumbbells overhead, rotate your wrists so that your palms face forward at the top of the movement. 4. Slowly lower the dumbbells back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Dumbbell Bench Press (Flat)",
+    "description": "A classic chest exercise that works the pectoralis major and minor muscles.",
+    "instructions": "1. Lie on a flat bench with feet flat on the floor. 2. Hold dumbbells with palms facing forward. 3. Lower the dumbbells towards your chest, keeping your elbows slightly bent. 4. Press the dumbbells back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Dumbbell Bench Press (Decline)",
+    "description": "A variation of the dumbbell bench press performed on a decline bench, which emphasizes the lower chest muscles.",
+    "instructions": "1. Lie on a decline bench with feet secured. 2. Hold dumbbells with palms facing forward. 3. Lower the dumbbells towards your chest. 4. Press the dumbbells back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Dumbbell Bench Press (Incline)",
+    "description": "A variation of the dumbbell bench press performed on an incline bench, which emphasizes the upper chest muscles.",
+    "instructions": "1. Lie on an incline bench with feet flat on the floor. 2. Hold dumbbells with palms facing forward. 3. Lower the dumbbells towards your chest. 4. Press the dumbbells back up.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Floor Press",
+    "description": "A variation of the bench press performed on the floor. It limits the range of motion and emphasizes the triceps.",
+    "instructions": "1. Lie on the floor with knees bent and feet flat. 2. Hold a barbell with an overhand grip, slightly wider than shoulder-width. 3. Lower the barbell to your chest, keeping your elbows tucked in. 4. Press the barbell back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Close-Grip Bench Press",
+    "description": "A variation of the bench press where the hands are closer together on the barbell, emphasizing the triceps more than a standard bench press.",
+    "instructions": "1. Lie on a flat bench with feet flat on the floor. 2. Grasp the barbell with an overhand grip, hands closer than shoulder-width apart (index fingers near the smooth part of the bar). 3. Lower the barbell to your chest, keeping your elbows tucked in. 4. Press the barbell back up to the starting position, extending your arms fully.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Barbell Bench Press (Flat)",
+    "description": "A classic compound exercise that primarily works the chest muscles, with assistance from the shoulders and triceps.",
+    "instructions": "1. Lie on a flat bench with feet flat on the floor. 2. Grasp the barbell with an overhand grip, slightly wider than shoulder-width apart. 3. Lower the barbell to your chest, keeping your elbows slightly bent. 4. Press the barbell back up to the starting position, extending your arms fully.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Barbell Bench Press (Incline)",
+    "description": "A variation of the bench press performed on an incline bench, which emphasizes the upper chest muscles.",
+    "instructions": "1. Lie on an incline bench with feet flat on the floor. 2. Grasp the barbell with an overhand grip, slightly wider than shoulder-width apart. 3. Lower the barbell to your upper chest. 4. Press the barbell back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Barbell Bench Press (Decline)",
+    "description": "A variation of the bench press performed on a decline bench, which emphasizes the lower chest muscles.",
+    "instructions": "1. Lie on a decline bench with feet secured. 2. Grasp the barbell with an overhand grip, slightly wider than shoulder-width apart. 3. Lower the barbell to your lower chest. 4. Press the barbell back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Pec Deck Fly Machine",
+    "description": "A machine that isolates the chest muscles by bringing the handles together in front of the body.",
+    "instructions": "1. Adjust the seat and handles to fit your body size. 2. Sit with your back flat against the seat and feet flat on the floor. 3. Place your forearms on the pads, with elbows slightly bent. 4. Bring the handles together in front of your chest, squeezing your chest muscles. 5. Slowly return the handles to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 2,
+    "name": "Smith Machine Bench Press",
+    "description": "A variation of the bench press performed using a Smith machine, which provides a guided path for the barbell.",
+    "instructions": "1. Set up a Smith machine with the desired weight. 2. Lie on a flat bench under the bar with feet flat on the floor. 3. Grasp the bar with an overhand grip, slightly wider than shoulder-width apart. 4. Unrack the bar and lower it to your chest. 5. Press the bar back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+{
+    "muscle_group_id": 3,
+    "name": "Barbell Rows",
+    "description": "A compound exercise that works the muscles of the back, primarily the lats, rhomboids, and trapezius. Variations include overhand, underhand, and Pendlay rows.",
+    "instructions": "1. Stand with feet shoulder-width apart, bending at your hips with a straight back. 2. Grasp a barbell with an overhand grip, slightly wider than shoulder-width. 3. Keeping your back straight, pull the barbell towards your chest. 4. Slowly lower the barbell back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "T-bar Rows",
+    "description": "A back exercise that uses a T-bar apparatus to lift weight. It targets the lats, rhomboids, and trapezius muscles.",
+    "instructions": "1. Load the T-bar with weight plates. 2. Stand facing the machine, straddling the bar. 3. Bend down and grasp the handles with an overhand grip. 4. Keeping your back straight, pull the handles towards your chest. 5. Slowly lower the handles back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Pull-ups",
+    "description": "A challenging bodyweight exercise that works the back muscles, particularly the lats and biceps. Many grip variations are possible (overhand, underhand, neutral).",
+    "instructions": "1. Grasp a pull-up bar with an overhand grip, slightly wider than shoulder-width. 2. Hang from the bar with arms fully extended. 3. Pull yourself up until your chin is above the bar. 4. Slowly lower yourself back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Lat Pulldowns",
+    "description": "A cable exercise that mimics the pull-up motion. It targets the latissimus dorsi muscles. Variations include close-grip, wide-grip, and behind-the-neck.",
+    "instructions": "1. Sit at a lat pulldown machine with your knees secured under the pads. 2. Grasp the bar with an overhand grip, slightly wider than shoulder-width. 3. Keeping your back straight, pull the bar down towards your chest. 4. Slowly return the bar to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Rear Delt Flyes",
+    "description": "An isolation exercise that targets the rear deltoid muscles (back of the shoulders).",
+    "instructions": "1. Sit on a bench with your chest supported and feet flat on the floor. 2. Hold dumbbells with palms facing each other. 3. Keeping your back straight, raise your arms out to the sides, squeezing your shoulder blades together. 4. Slowly lower the dumbbells back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Back Extensions",
+    "description": "An exercise that strengthens the lower back muscles (erector spinae).",
+    "instructions": "1. Lie face down on a back extension bench with your hips supported and feet secured. 2. Cross your arms over your chest or place your hands behind your head. 3. Lower your upper body towards the floor. 4. Raise your upper body back up, contracting your lower back muscles.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Seated Cable Rows",
+    "description": "A compound exercise that works the back muscles, particularly the lats, rhomboids, and trapezius.",
+    "instructions": "1. Sit at a cable row machine with your feet flat on the platform and knees slightly bent. 2. Grasp the handles with an overhand grip. 3. Keeping your back straight, pull the handles towards your abdomen, squeezing your shoulder blades together. 4. Slowly return the handles to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Face Pulls",
+    "description": "An isolation exercise that targets the rear deltoid muscles (back of the shoulders) and upper back muscles.",
+    "instructions": "1. Attach a rope attachment to a high pulley cable machine. 2. Stand facing the machine, feet shoulder-width apart, knees slightly bent. 3. Grasp the ends of the rope with an overhand grip, palms facing each other. 4. Pull the rope towards your face, keeping your elbows high and pulling the rope apart as you reach your face. 5. Slowly return to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Superman",
+    "description": "A bodyweight exercise that strengthens the lower back muscles (erector spinae) and glutes.",
+    "instructions": "1. Lie face down on a mat with arms extended overhead and legs straight. 2. Simultaneously lift your arms and legs off the ground, contracting your lower back and glutes. 3. Hold for a few seconds, then slowly lower back down.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Inverted Rows",
+    "description": "A bodyweight exercise that works the back muscles, similar to a pull-up but performed horizontally.",
+    "instructions": "1. Position a barbell in a squat rack at about waist height. 2. Lie underneath the bar with your feet extended and heels on the floor. 3. Grasp the bar with an overhand grip, slightly wider than shoulder-width. 4. Pull your chest up towards the bar, keeping your body in a straight line. 5. Slowly lower yourself back down.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Pull-Aparts",
+    "description": "An isolation exercise that strengthens the rear deltoids and upper back muscles, improving posture.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding a resistance band with palms facing down and arms extended in front of you. 2. Keeping your arms straight, pull the band apart, squeezing your shoulder blades together. 3. Slowly return to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Seated Row Machine",
+    "description": "A machine that provides guided resistance for seated rows, targeting the back muscles.",
+    "instructions": "1. Sit at the machine with your feet flat on the platform and knees slightly bent. 2. Grasp the handles with an overhand or underhand grip. 3. Keeping your back straight, pull the handles towards your chest, squeezing your shoulder blades together. 4. Slowly return the handles to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Assisted Pull-up Machine",
+    "description": "A machine that provides assistance for performing pull-ups, making the exercise easier for beginners or those who cannot yet perform unassisted pull-ups.",
+    "instructions": "1. Adjust the weight stack to provide the desired level of assistance. 2. Kneel or stand on the platform. 3. Grasp the pull-up bar with an overhand grip, slightly wider than shoulder-width. 4. Pull yourself up until your chin is above the bar, using the assistance of the machine. 5. Slowly lower yourself back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Lat Pulldown Machine",
+    "description": "A machine that mimics the pull-up motion, targeting the latissimus dorsi muscles.",
+    "instructions": "1. Sit at the machine with your knees secured under the pads. 2. Grasp the bar with an overhand grip, slightly wider than shoulder-width. 3. Keeping your back straight, pull the bar down towards your chest. 4. Slowly return the bar to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Deadlifts",
+    "description": "A compound exercise that works multiple muscle groups, including the back, glutes, hamstrings, and core.",
+    "instructions": "1. Stand with feet hip-width apart, the barbell over your midfoot. 2. Bend down and grasp the bar with an overhand grip, slightly wider than shoulder-width. 3. Keeping your back flat and core engaged, lift the bar by extending your hips and knees. 4. Stand up straight with the bar, then slowly lower it back to the ground.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Dumbbell Rows",
+    "description": "A back exercise that can be performed with one or two dumbbells. It targets the lats, rhomboids, and trapezius muscles.",
+    "instructions": "1. Place one knee and one hand on a bench, keeping your back straight. 2. Hold a dumbbell in the other hand with a neutral grip (palm facing your body). 3. Keeping your core engaged, pull the dumbbell up towards your chest. 4. Slowly lower the dumbbell back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Chin-ups",
+    "description": "A challenging bodyweight exercise that works the back muscles, particularly the lats and biceps. It is performed with an underhand grip (palms facing you).",
+    "instructions": "1. Grasp a pull-up bar with an underhand grip, slightly narrower than shoulder-width. 2. Hang from the bar with arms fully extended. 3. Pull yourself up until your chin is above the bar. 4. Slowly lower yourself back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 3,
+    "name": "Lat Pullovers",
+    "description": "An exercise that targets the lats, chest, and triceps. It can be performed with a dumbbell or a barbell.",
+    "instructions": "1. Lie on a bench with your upper back supported and feet flat on the floor. 2. Hold a dumbbell or barbell with both hands, arms extended above your chest. 3. Keeping your core engaged, slowly lower the weight behind your head, feeling a stretch in your chest and lats. 4. Pull the weight back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Barbell Overhead Press",
+    "description": "A compound exercise that targets the shoulder muscles, primarily the anterior deltoids.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding a barbell in front of your shoulders with an overhand grip, slightly wider than shoulder-width. 2. Keeping your back straight and core engaged, press the barbell straight up overhead until your arms are fully extended. 3. Slowly lower the barbell back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Dumbbell Shoulder Press",
+    "description": "Similar to the barbell overhead press, but using dumbbells allows for a greater range of motion and individual arm movement.",
+    "instructions": "1. Sit or stand with feet shoulder-width apart, holding dumbbells at shoulder height with palms facing forward. 2. Keeping your back straight and core engaged, press the dumbbells straight up overhead until your arms are fully extended. 3. Slowly lower the dumbbells back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Arnold Press",
+    "description": "A variation of the dumbbell shoulder press that involves rotating the dumbbells as you press them overhead, engaging more shoulder muscles.",
+    "instructions": "1. Sit with your back straight and feet flat on the floor. 2. Hold dumbbells in front of your shoulders with palms facing your body. 3. As you press the dumbbells overhead, rotate your wrists so that your palms face forward at the top of the movement. 4. Slowly lower the dumbbells back to the starting position, reversing the rotation.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Lateral Raises (Dumbbell)",
+    "description": "An isolation exercise that targets the lateral deltoids (sides of the shoulders).",
+    "instructions": "1. Stand with feet shoulder-width apart, holding dumbbells at your sides with palms facing your body. 2. Keeping your elbows slightly bent, raise the dumbbells out to the sides until your arms are parallel to the floor. 3. Slowly lower the dumbbells back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Lateral Raises (Cable)",
+    "description": "Similar to dumbbell lateral raises, but using cables provides constant tension throughout the movement.",
+    "instructions": "1. Attach handles to the low pulleys of a cable machine. 2. Stand with feet shoulder-width apart, holding the handles with palms facing your body. 3. Keeping your elbows slightly bent, raise the handles out to the sides until your arms are parallel to the floor. 4. Slowly lower the handles back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Front Raises (Dumbbell)",
+    "description": "An isolation exercise that targets the anterior deltoids (front of the shoulders).",
+    "instructions": "1. Stand with feet shoulder-width apart, holding dumbbells in front of your thighs with palms facing your body. 2. Keeping your elbows slightly bent, raise the dumbbells straight in front of you until your arms are parallel to the floor. 3. Slowly lower the dumbbells back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Front Raises (Cable)",
+    "description": "An isolation exercise that targets the anterior deltoids (front of the shoulders), using cables for constant tension.",
+    "instructions": "1. Attach a straight bar or D-handles to the low pulleys of a cable machine. 2. Stand with feet shoulder-width apart, holding the handles with palms facing your body. 3. Keeping your elbows slightly bent, raise the handles straight in front of you until your arms are parallel to the floor. 4. Slowly lower the handles back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Reverse Flyes",
+    "description": "An isolation exercise that targets the posterior deltoids (rear of the shoulders) and upper back muscles.",
+    "instructions": "1. Sit on a bench with your chest supported and feet flat on the floor. 2. Hold dumbbells with palms facing each other. 3. Keeping your back straight, raise your arms out to the sides, squeezing your shoulder blades together. 4. Slowly lower the dumbbells back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Shrugs",
+    "description": "An exercise that targets the trapezius muscles (upper back and neck).",
+    "instructions": "1. Stand with feet shoulder-width apart, holding dumbbells or a barbell with an overhand grip. 2. Keeping your arms straight, shrug your shoulders up towards your ears. 3. Hold for a brief moment, then slowly lower your shoulders back down.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Upright Rows",
+    "description": "A compound exercise that works the trapezius and shoulder muscles.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding a barbell or dumbbells with an overhand grip, hands close together. 2. Keeping your back straight, pull the weight straight up towards your chin, leading with your elbows. 3. Slowly lower the weight back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Military Press",
+    "description": "A strict overhead press performed with a barbell, primarily targeting the shoulder muscles.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding a barbell in front of your shoulders with an overhand grip, slightly wider than shoulder-width. 2. Keeping your back straight and core engaged, press the barbell straight up overhead until your arms are fully extended. 3. Slowly lower the barbell back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 4,
+    "name": "Landmine Press",
+    "description": "A shoulder exercise that uses a barbell anchored at one end. It allows for a unique pressing angle and can be performed with one or two arms.",
+    "instructions": "1. Secure one end of a barbell in a landmine attachment or a corner. 2. Hold the free end of the barbell with one or both hands. 3. Keeping your core engaged, press the barbell up and away from your body, following a diagonal path. 4. Slowly lower the barbell back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Leg Extensions",
+    "description": "An isolation exercise that targets the quadriceps muscles on the front of the thigh.",
+    "instructions": "1. Sit on a leg extension machine with your back flat against the seat and feet hooked under the padded bar. 2. Adjust the seat and bar to fit your leg length. 3. Extend your legs upward, straightening your knees until your legs are fully extended. 4. Slowly lower the weight back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Front Squats",
+    "description": "A compound exercise that primarily targets the quadriceps, with additional work on the glutes and core.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding a barbell across your collarbone and shoulders (front rack position). 2. Keeping your back straight and core engaged, squat down until your thighs are parallel to the floor. 3. Drive through your heels to stand back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Bulgarian Split Squats",
+    "description": "A single-leg exercise that works the quads, glutes, and hamstrings, while also challenging balance and coordination.",
+    "instructions": "1. Stand with your back foot elevated on a bench or platform, front foot a few feet in front. 2. Holding dumbbells or a barbell, lower your body down until your back knee touches the floor and your front thigh is parallel to the ground. 3. Push back up to the starting position through your front heel.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Wall Sits",
+    "description": "An isometric exercise that strengthens the quadriceps and improves endurance.",
+    "instructions": "1. Stand with your back flat against a wall, feet shoulder-width apart and a couple of feet away from the wall. 2. Slide down the wall until your knees are bent at a 90-degree angle, as if sitting in a chair. 3. Hold this position for a specified time, keeping your core engaged.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Hamstring Curls",
+    "description": "An isolation exercise that targets the hamstring muscles on the back of the thigh.",
+    "instructions": "1. Lie face down on a hamstring curl machine with your legs extended and ankles under the padded bar. 2. Curl your legs up towards your glutes, contracting your hamstrings. 3. Slowly lower your legs back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Romanian Deadlifts (RDLs)",
+    "description": "A compound exercise that primarily targets the hamstrings and glutes, with additional work on the lower back.",
+    "instructions": "1. Stand with feet hip-width apart, holding a barbell with an overhand grip. 2. Keeping your back straight and core engaged, hinge at your hips and lower the barbell towards the ground. 3. Keep the barbell close to your legs as you lower it. 4. Once you feel a stretch in your hamstrings, reverse the movement and stand back up.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Standing Calf Raises",
+    "description": "An isolation exercise that targets the calf muscles.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding dumbbells or a barbell for added resistance (optional). 2. Raise up onto the balls of your feet, contracting your calves. 3. Slowly lower your heels back down to the ground.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Seated Calf Raises",
+    "description": "An isolation exercise that targets the soleus muscles (lower part of the calves).",
+    "instructions": "1. Sit on a calf raise machine with your knees bent and feet flat on the platform. 2. Adjust the pads to rest comfortably on your thighs. 3. Lift your heels off the platform, contracting your calves. 4. Slowly lower your heels back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Donkey Calf Raises",
+    "description": "A variation of calf raises where you bend at the hips and someone (or a weight) pushes down on your lower back, providing extra resistance.",
+    "instructions": "1. Position yourself on a donkey calf raise machine or have a partner apply pressure to your lower back. 2. Stand on a raised platform with your heels hanging off the edge. 3. Lower your heels down, stretching your calves. 4. Raise up onto the balls of your feet, contracting your calves.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Glute Bridges",
+    "description": "An exercise that targets the glutes and hamstrings.",
+    "instructions": "1. Lie on your back with knees bent and feet flat on the floor. 2. Place your arms at your sides with palms facing down. 3. Lift your hips off the floor, squeezing your glutes and forming a straight line from your shoulders to your knees. 4. Hold for a few seconds, then slowly lower your hips back down.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Hip Thrusts",
+    "description": "A more advanced glute exercise that involves raising your hips off the ground with your upper back supported on a bench.",
+    "instructions": "1. Sit on the floor with your upper back resting on a bench and your feet flat on the floor. 2. Place a barbell or weight plate across your hips. 3. Drive your hips up towards the ceiling, squeezing your glutes. 4. Hold for a few seconds, then slowly lower your hips back down.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Lateral Band Walks",
+    "description": "An exercise that strengthens the gluteus medius (side of the hips) and improves hip stability.",
+    "instructions": "1. Place a resistance band around your ankles or thighs. 2. Stand with feet shoulder-width apart, knees slightly bent. 3. Take a step to the side, keeping tension on the band. 4. Continue stepping sideways for a specified distance or number of steps.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Donkey Kicks",
+    "description": "An exercise that targets the gluteus maximus (the largest muscle in the buttocks).",
+    "instructions": "1. Start on your hands and knees, with your back flat. 2. Keeping your knee bent, lift one leg up behind you, squeezing your glute at the top of the movement. 3. Lower your leg back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 5,
+    "name": "Step-ups",
+    "description": "An exercise that works the quads, glutes, and hamstrings, while also improving balance and coordination.",
+    "instructions": "1. Stand in front of a bench or platform. 2. Step up onto the platform with one leg, bringing the other leg up to meet it. 3. Step back down with the same leg, then repeat with the other leg.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Barbell Curls",
+    "description": "A classic biceps exercise that uses a barbell to work both biceps simultaneously.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding a barbell with an underhand grip, slightly wider than shoulder-width. 2. Keeping your elbows close to your sides and your upper arms stationary, curl the barbell up towards your shoulders. 3. Squeeze your biceps at the top of the movement. 4. Slowly lower the barbell back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Dumbbell Hammer Curls",
+    "description": "A variation of dumbbell curls where the palms face each other (like holding hammers) throughout the movement. This emphasizes the brachialis and brachioradialis muscles, which contribute to overall arm size.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding dumbbells with a neutral grip (palms facing each other). 2. Keeping your elbows close to your sides, curl the dumbbells up towards your shoulders. 3. Squeeze your biceps and forearms at the top of the movement. 4. Slowly lower the dumbbells back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Dumbbell Preacher Curls",
+    "description": "A biceps isolation exercise performed on a preacher curl bench, which helps to isolate the biceps and prevent swinging.",
+    "instructions": "1. Sit on a preacher curl bench with your chest against the pad and your upper arms resting on the angled support. 2. Hold a dumbbell with an underhand grip. 3. Curl the dumbbell up towards your shoulder, keeping your upper arm stationary. 4. Slowly lower the dumbbell back to the starting position, feeling a stretch in your biceps.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Dumbbell Concentration Curls",
+    "description": "A biceps isolation exercise that is performed one arm at a time, with the elbow braced against the inner thigh for stability.",
+    "instructions": "1. Sit on a bench with your feet flat on the floor. 2. Lean forward slightly and place one elbow against the inside of your thigh. 3. Hold a dumbbell with an underhand grip. 4. Curl the dumbbell up towards your shoulder, keeping your upper arm stationary. 5. Slowly lower the dumbbell back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Cable Curls",
+    "description": "A biceps exercise performed on a cable machine, providing constant tension throughout the movement.",
+    "instructions": "1. Attach a straight bar or EZ-bar to a low pulley cable machine. 2. Stand facing the machine, feet shoulder-width apart. 3. Grasp the bar with an underhand grip. 4. Keeping your elbows close to your sides, curl the bar up towards your shoulders. 5. Slowly lower the bar back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Hammer Curls (Cable)",
+    "description": "Similar to dumbbell hammer curls, but performed with a rope attachment on a cable machine.",
+    "instructions": "1. Attach a rope attachment to a low pulley cable machine. 2. Stand facing the machine, feet shoulder-width apart. 3. Grasp the ends of the rope with a neutral grip (palms facing each other). 4. Keeping your elbows close to your sides, curl the rope up towards your shoulders. 5. Slowly lower the rope back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Zottman Curls",
+    "description": "A biceps exercise that combines a standard curl with a reverse curl, working the biceps and forearms.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding dumbbells with an underhand grip. 2. Curl the dumbbells up towards your shoulders. 3. At the top of the movement, rotate your wrists so that your palms face down. 4. Slowly lower the dumbbells back to the starting position with your palms facing down (reverse curl). 5. At the bottom of the movement, rotate your wrists back to the starting position (palms facing up).",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Spider Curls",
+    "description": "A biceps isolation exercise performed on a preacher curl bench with your chest facing the pad. This emphasizes the biceps peak.",
+    "instructions": "1. Position yourself on a preacher curl bench with your chest facing the pad and your upper arms extended over the top. 2. Hold dumbbells with an underhand grip. 3. Curl the dumbbells up towards your shoulders, keeping your upper arms stationary. 4. Slowly lower the dumbbells back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Reverse Curls",
+    "description": "An exercise that targets the brachioradialis and forearm muscles.",
+    "instructions": "1. Stand with feet shoulder-width apart, holding a barbell or dumbbells with an overhand grip. 2. Keeping your elbows close to your sides, curl the weight up towards your shoulders. 3. Slowly lower the weight back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Close-Grip Bench Press",
+    "description": "A variation of the bench press where the hands are closer together on the barbell, emphasizing the triceps.",
+    "instructions": "1. Lie on a flat bench with feet flat on the floor. 2. Grasp the barbell with an overhand grip, hands closer than shoulder-width apart (index fingers near the smooth part of the bar). 3. Lower the barbell to your chest, keeping your elbows tucked in. 4. Press the barbell back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Overhead Triceps Extensions",
+    "description": "An isolation exercise that targets all three heads of the triceps. It can be performed with a dumbbell, barbell, or cable machine.",
+    "instructions": "1. Sit or stand with feet shoulder-width apart. 2. Hold a dumbbell or barbell with both hands and extend your arms overhead. 3. Keeping your elbows close to your head, lower the weight behind your head. 4. Extend your arms back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Skull Crushers",
+    "description": "An isolation exercise that targets the triceps, particularly the long head.",
+    "instructions": "1. Lie on a flat bench with feet flat on the floor. 2. Hold a barbell or EZ-bar with an overhand grip, hands shoulder-width apart. 3. Keeping your elbows tucked in, lower the weight towards your forehead. 4. Extend your arms back up to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Triceps Pushdowns (Cable)",
+    "description": "A triceps isolation exercise performed on a cable machine using a straight bar or rope attachment.",
+    "instructions": "1. Attach a straight bar or rope attachment to a high pulley cable machine. 2. Stand facing the machine, feet shoulder-width apart. 3. Grasp the bar or rope with an overhand grip. 4. Keeping your elbows close to your sides, push the bar or rope down towards the floor until your arms are fully extended. 5. Slowly return to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Triceps Pushdowns (V-bar)",
+    "description": "A variation of triceps pushdowns performed using a V-bar attachment, which allows for a more comfortable grip and can target different parts of the triceps.",
+    "instructions": "1. Attach a V-bar attachment to a high pulley cable machine. 2. Stand facing the machine, feet shoulder-width apart. 3. Grasp the V-bar with an overhand grip. 4. Keeping your elbows close to your sides, push the V-bar down towards the floor until your arms are fully extended. 5. Slowly return to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Triceps Dips",
+    "description": "A bodyweight exercise that primarily targets the triceps, with some involvement of the chest and shoulders.",
+    "instructions": "1. Grip parallel bars or dip bars with hands shoulder-width apart. 2. Start with arms extended and body supported by your hands. 3. Lower your body by bending your elbows until your upper arms are parallel to the floor. 4. Keep your body upright and elbows tucked in. 5. Push back up to the starting position by extending your arms.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Triceps Kickbacks",
+    "description": "An isolation exercise that targets the triceps, particularly the lateral head.",
+    "instructions": "1. Place one knee and one hand on a bench, keeping your back straight. 2. Hold a dumbbell in the other hand with a neutral grip (palm facing your body). 3. Keeping your upper arm stationary, extend your arm back until it is fully straight. 4. Slowly lower the dumbbell back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Wrist Curls",
+    "description": "An isolation exercise that targets the forearm muscles, specifically the wrist flexors.",
+    "instructions": "1. Sit on a bench with your forearms resting on your thighs, palms facing up. 2. Hold a dumbbell or barbell with an overhand grip. 3. Curl your wrists upward, lifting the weight. 4. Slowly lower the weight back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Reverse Wrist Curls",
+    "description": "An isolation exercise that targets the forearm muscles, specifically the wrist extensors.",
+    "instructions": "1. Sit on a bench with your forearms resting on your thighs, palms facing down. 2. Hold a dumbbell or barbell with an underhand grip. 3. Curl your wrists upward, lifting the weight. 4. Slowly lower the weight back to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Farmer's Walks",
+    "description": "A functional exercise that improves grip strength, core stability, and overall strength endurance.",
+    "instructions": "1. Hold a heavy dumbbell or kettlebell in each hand. 2. Stand tall with shoulders back and core engaged. 3. Walk for a specified distance or time, maintaining an upright posture.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Grip Strengtheners",
+    "description": "Handheld devices designed to strengthen the grip muscles.",
+    "instructions": "1. Choose a grip strengthener with appropriate resistance. 2. Squeeze the handles of the grip strengthener together repeatedly.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 6,
+    "name": "Dead Hangs",
+    "description": "A simple exercise that improves grip strength and shoulder stability.",
+    "instructions": "1. Grasp a pull-up bar with an overhand grip, slightly wider than shoulder-width. 2. Hang from the bar with arms fully extended and feet off the ground. 3. Maintain a straight body line and engage your core. 4. Hold for as long as possible.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Plank",
+    "description": "An isometric exercise that strengthens the core muscles, particularly the abdominals and lower back.",
+    "instructions": "1. Start in a push-up position with forearms on the ground, elbows aligned below shoulders. 2. Maintain a straight line from head to heels, engaging your core and glutes. 3. Hold this position for a specified time.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Crunches",
+    "description": "A classic core exercise that targets the abdominal muscles.",
+    "instructions": "1. Lie on your back with knees bent and feet flat on the floor. 2. Place your hands behind your head or cross them over your chest. 3. Curl your upper body up towards your knees, contracting your abs. 4. Slowly lower back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Leg Raises",
+    "description": "An exercise that targets the lower abdominal muscles.",
+    "instructions": "1. Lie on your back with legs straight and arms at your sides. 2. Keeping your legs straight, raise them up towards the ceiling until they are perpendicular to the floor. 3. Slowly lower your legs back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Russian Twists",
+    "description": "An exercise that works the oblique muscles (sides of the abdomen).",
+    "instructions": "1. Sit on the floor with knees bent and feet raised slightly off the ground. 2. Lean back slightly, keeping your back straight. 3. Twist your torso from side to side, touching the floor on each side with your hands (or holding a weight for added resistance).",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Sit-ups",
+    "description": "A core exercise that works the abdominal muscles.",
+    "instructions": "1. Lie on your back with knees bent and feet flat on the floor. 2. Place your hands behind your head or cross them over your chest. 3. Sit up all the way, bringing your chest towards your knees. 4. Slowly lower back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Decline Sit-ups",
+    "description": "A variation of sit-ups performed on a decline bench, which increases the difficulty and range of motion.",
+    "instructions": "1. Lie on a decline bench with your feet secured under the foot pads. 2. Place your hands behind your head or cross them over your chest. 3. Sit up all the way, bringing your chest towards your knees. 4. Slowly lower back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "V-ups",
+    "description": "A challenging core exercise that works both the upper and lower abdominals simultaneously.",
+    "instructions": "1. Lie on your back with legs straight and arms extended overhead. 2. Keeping your core engaged, simultaneously lift your legs and arms towards each other, forming a \"V\" shape with your body. 3. Reach for your toes, then slowly lower back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Mountain Climbers",
+    "description": "A dynamic core exercise that also elevates your heart rate and improves cardiovascular fitness.",
+    "instructions": "1. Start in a push-up position with hands shoulder-width apart and body in a straight line. 2. Bring one knee towards your chest, keeping your core engaged. 3. Quickly alternate legs, as if running in place.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Flutter Kicks",
+    "description": "An exercise that targets the lower abdominal muscles.",
+    "instructions": "1. Lie on your back with legs straight and arms at your sides. 2. Lift your legs slightly off the ground. 3. Alternate kicking your legs up and down in a small, rapid motion.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Standing Cable Crunches",
+    "description": "A core exercise that uses a cable machine to add resistance.",
+    "instructions": "1. Attach a rope attachment to a high pulley cable machine. 2. Stand facing the machine, feet shoulder-width apart, holding the ends of the rope behind your head. 3. Keeping your core engaged, crunch down towards your knees, bringing your elbows towards your thighs. 4. Slowly return to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Ab Wheel Rollouts",
+    "description": "A challenging core exercise that uses an ab wheel to work the entire core, especially the abdominals and lower back.",
+    "instructions": "1. Kneel on the floor with the ab wheel in front of you. 2. Grasp the handles of the ab wheel and extend your arms forward. 3. Slowly roll the wheel forward, extending your body until you feel a stretch in your abs. 4. Use your core strength to pull the wheel back towards your knees, returning to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Hanging Knee Raises",
+    "description": "A core exercise that targets the lower abdominals and hip flexors.",
+    "instructions": "1. Hang from a pull-up bar with an overhand grip, slightly wider than shoulder-width. 2. Keeping your legs straight, raise your knees up towards your chest. 3. Slowly lower your legs back down to the starting position.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Superman",
+    "description": "A bodyweight exercise that strengthens the lower back muscles (erector spinae) and glutes.",
+    "instructions": "1. Lie face down on a mat with arms extended overhead and legs straight. 2. Simultaneously lift your arms and legs off the ground, contracting your lower back and glutes. 3. Hold for a few seconds, then slowly lower back down.",
+    "image_url": "image_url_placeholder"
+  },
+  {
+    "muscle_group_id": 7,
+    "name": "Pallof Press",
+    "description": "An anti-rotation exercise that strengthens the core muscles, particularly the obliques.",
+    "instructions": "1. Stand sideways to a cable machine, holding a handle attached to a chest-height pulley. 2. Position yourself a few feet away from the machine, creating tension in the cable. 3. Keeping your core engaged and arms straight, press the handle out in front of you. 4. Resist the pull of the cable, keeping your body stable and preventing rotation. 5. Slowly return the handle to your chest.",
+    "image_url": "image_url_placeholder"
+  }
+]
+
+

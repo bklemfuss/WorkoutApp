@@ -1,5 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
+import 'dart:convert'; // Import for jsonDecode
+import 'package:flutter/services.dart'; // Import for rootBundle
 
 /*
 INSERT DATA
@@ -53,15 +55,28 @@ class DatabaseHelper {
   }
 
   Future _onCreate(Database db, int version) async {
+    // Create users table
+    await db.execute('''
+      CREATE TABLE $tableUser (
+        user_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        email TEXT,
+        password TEXT,
+        height INTEGER,
+        weight INTEGER,
+        date_of_birth TEXT, 
+        gender TEXT, 
+        notification_preferences TEXT 
+      )
+    ''');
+
     // Create exercises table
     await db.execute('''
       CREATE TABLE $tableExercises (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        exercise_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        muscle_group_id INTEGER,
         name TEXT NOT NULL,
         description TEXT,
-        muscle_group_id INTEGER,
-        equipment TEXT,
-        difficulty TEXT,
         instructions TEXT,
         image_url TEXT
       )
@@ -70,27 +85,41 @@ class DatabaseHelper {
     // Create workouts table
     await db.execute('''
       CREATE TABLE $tableWorkouts (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        workout_id INTEGER PRIMARY KEY AUTOINCREMENT,
         user_id INTEGER,
-        date TEXT NOT NULL,
-        notes TEXT
+        date TEXT NOT NULL
       )
     ''');
 
     // Create workout_exercises table
     await db.execute('''
       CREATE TABLE $tableWorkoutExercises (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        workout_exercise_id INTEGER PRIMARY KEY AUTOINCREMENT,
         workout_id INTEGER NOT NULL,
         exercise_id INTEGER NOT NULL,
         sets INTEGER,
         reps INTEGER,
-        weight REAL,
-        rest_time INTEGER
+        weight REAL 
       )
     ''');
 
-    // ... create other tables ...
+    // Create body_measurements table
+    await db.execute('''
+      CREATE TABLE $tableBodyMeasurement (
+        body_measurement_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        user_id INTEGER,
+        date TEXT NOT NULL,
+        weight REAL 
+      )
+    ''');
+
+    // Create muscle_groups table
+    await db.execute('''
+      CREATE TABLE $tableMuscleGroup (
+        muscle_group_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT NOT NULL
+      )
+    ''');
   }
 
   // Insert exercise
@@ -103,6 +132,21 @@ class DatabaseHelper {
   Future<List<Map<String, dynamic>>> queryAllExercises() async {
     Database db = await instance.database;
     return await db.query(tableExercises);
+  }
+
+  // Insert exercises from JSON
+  Future<void> insertExercisesFromJson(String jsonFilePath) async {
+    // 1. Load JSON data from file
+    String jsonString = await rootBundle.loadString(jsonFilePath);
+    List<dynamic> jsonData = jsonDecode(jsonString);
+
+    // 2. Insert each exercise into the database
+    Database db = await instance.database;
+    Batch batch = db.batch();
+    for (var exerciseData in jsonData) {
+      batch.insert(tableExercises, exerciseData);
+    }
+    await batch.commit(noResult: true);
   }
 
   // ... other query and insert functions for workouts, etc. ...

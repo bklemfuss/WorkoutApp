@@ -43,7 +43,7 @@ class HomeScreen extends StatelessWidget {
                         ),
                       ],
                       onChanged: (value) {
-                        // Handle dropdown selection change
+                        // Handle dropdown selection change - Pull # of workouts from DB for selected time frame
                       },
                     ),
                   ],
