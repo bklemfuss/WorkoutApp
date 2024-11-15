@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     Text(
                       // Replace X with the actual number from the database
-                      '{0} Workouts Completed',
+                      '{X} Workouts Completed',
                       style: TextStyle(
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold,
