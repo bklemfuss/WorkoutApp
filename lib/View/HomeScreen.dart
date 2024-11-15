@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'StartWorkoutScreen.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -52,20 +53,37 @@ class HomeScreen extends StatelessWidget {
           ),
 
           // Start New Workout
-          Container(
-            padding: EdgeInsets.all(20.0),
-            child: Row(
-              children: [
-                Text(
-                  'Start New Workout',
-                  style: TextStyle(
-                    fontSize: 16.0,
-                    color: Colors.blue,
+          GestureDetector(
+            // Wrap with GestureDetector
+            onTap: () {
+              // Navigate to the Start New Workout screen
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => StartWorkoutScreen()),
+              );
+            },
+            child: Container(
+              padding: EdgeInsets.symmetric(
+                  vertical: 12.0, horizontal: 20.0), // Adjusted padding
+              decoration: BoxDecoration(
+                color: Colors.blue, // Add a background color
+                borderRadius: BorderRadius.circular(8.0), // Add rounded corners
+              ),
+              child: Row(
+                mainAxisSize: MainAxisSize.min, // Wrap the content
+                children: [
+                  Text(
+                    'Start New Workout',
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.white, // Change text color to white
+                    ),
                   ),
-                ),
-                Spacer(),
-                Icon(Icons.arrow_forward),
-              ],
+                  SizedBox(width: 8.0), // Add space between text and icon
+                  Icon(Icons.arrow_forward,
+                      color: Colors.white), // Change icon color
+                ],
+              ),
             ),
           ),
           Container(

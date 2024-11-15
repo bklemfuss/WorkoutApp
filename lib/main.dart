@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'View/HomeScreen.dart'; // Import your HomeScreen widget
+import 'View/HistoryScreen.dart';
+import 'View/StatisticsScreen.dart';
+import 'View/OptionsScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -31,10 +34,10 @@ class MyApp extends StatelessWidget {
           ),
           body: TabBarView(
             children: [
-              HomeScreen(), // No AppBar in HomeScreen now
-              Center(child: Text('History Screen')),
-              Center(child: Text('Stats Screen')),
-              Center(child: Text('Settings Screen')),
+              HomeScreen(),
+              HistoryScreen(),
+              StatisticsScreen(),
+              OptionsScreen(),
             ],
           ),
           bottomNavigationBar: const TabBar(
